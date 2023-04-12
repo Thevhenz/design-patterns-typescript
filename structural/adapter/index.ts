@@ -55,7 +55,7 @@ class Material implements IMaterial {
 // list.push(product.getData());
 // console.log(list);
 
-// const material = new Material("Steal", 10);
+// const material = new Material("Steel", 10);
 // const material2 = new Material("Wheels", 4);
 // list.push(material.getData());
 // list.push(material2.getData());
@@ -66,7 +66,7 @@ class Material implements IMaterial {
 // name   |   brand
 // -----------------
 // Car    |   BMW
-// Steal  |   -
+// Steel  |   -
 // Wheels |   -
 
 // Option 1
@@ -92,7 +92,7 @@ class MaterialAdapter implements BaseData {
 // list2.push(product2.getData());
 // console.log(list2);
 
-// const material3 = new MaterialAdapter(new Material("Steal", 10));
+// const material3 = new MaterialAdapter(new Material("Steel", 10));
 // const material4 = new MaterialAdapter(new Material("Wheels", 4));
 // list2.push(material3.getData());
 // list2.push(material4.getData());
@@ -146,7 +146,7 @@ const data1 = new DataAdapter(
 );
 list3.push(data1.getData());
 
-const data2 = new DataAdapter({ name: "Steal", qty: 10 }, AdapterType.MATERIAL);
+const data2 = new DataAdapter({ name: "Steel", qty: 10 }, AdapterType.MATERIAL);
 list3.push(data2.getData());
 
 const data3 = new DataAdapter({ name: "Wheels", qty: 4 }, AdapterType.MATERIAL);

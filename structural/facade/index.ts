@@ -1,15 +1,15 @@
 import Operation from "./OperationService.ts";
 
 const calculate1 = (): number => {
-  let num1: number = 20;
-  let num2: number = 30;
+  const num1 = 20;
+  const num2 = 30;
 
   return Operation(num1, num2);
 };
 
 const calculate2 = (): number => {
-  let num1: number = 18;
-  let num2: number = 5;
+  const num1 = 18;
+  const num2 = 5;
 
   return Operation(num1, num2);
 };
